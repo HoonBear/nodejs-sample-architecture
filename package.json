@@ -1,0 +1,25 @@
+{
+  "name": "bluepet-commerce-develop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.976.0",
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "multer-s3": "^2.9.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.0",
+    "pm2": "^5.1.1"
+  }
+}
